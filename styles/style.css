@@ -1,97 +1,100 @@
 body {
-    height: 1000px;
-  }
-  .logo_image {
-    width: 40px;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: aqua;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  .navigation ul {
-    display: flex;
-  }
-  .nav_li {
-    margin-right: 50px;
-  }
-  
-  .wrapper {
-    background-color: pink;
-    width: 300px;
-  }
-  .img1 {
-    width: 100px;
-    float: left;
-  }
-  
-  b,
-  strong {
-    font-weight: bold;
-  }
-  .container {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  
-  p {
-    text-align: justify;
-  }
-  .videoElement {
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* .box {
+  height: 1000px;
+}
+.logo_image {
+  width: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navigation ul {
+  display: flex;
+}
+.nav_li {
+  margin-right: 50px;
+}
+.burger {
+  width: 40px;
+  height: 30px;
+  display: none;
+}
+.wrapper {
+  background-color: pink;
+  width: 300px;
+}
+.img1 {
+  width: 100px;
+  float: left;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+p {
+  text-align: justify;
+}
+.videoElement {
+  display: flex;
+  justify-content: center;
+}
+
+/* .box {
     width: 200px;
     height: 150px;
     background-color: yellow;
     border: 2px solid black;
     margin: 0 auto;
   } */
-  .positioned {
-    width: 100px;
-    height: 70px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background-color: green;
-  }
-  .container-box {
-    background-color: pink;
-  }
-  
-  section {
-    margin-top: 50px;
-  }
-  
-  .chat_icon {
-    width: 90px;
-    height: 60px;
-    position: fixed;
-    bottom: 60px;
-    right: 60px;
-    z-index: -3;
-  }
-  
-  .container_box {
-    display: flex;
-    justify-content: space-between;
-    background-color: pink;
-  }
-  
-  .box{
-    width: 150px;
-    height: 180px;
-    background-color: purple;
-    border: 2px solid black;
-  }
-  
+.positioned {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: green;
+}
+.container-box {
+  background-color: pink;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.chat_icon {
+  width: 90px;
+  height: 60px;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: -3;
+}
+
+.container_box {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+.box {
+  width: 150px;
+  height: 180px;
+  background-color: purple;
+  border: 2px solid black;
+}
