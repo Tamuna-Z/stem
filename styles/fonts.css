@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'ALK Tommaso';
+    src: url('../fonts/alk-tommaso-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-tommaso-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-tommaso-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-tommaso-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-tommaso-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-tommaso-webfont.svg#alk_tommasoregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light.eot');
+    src: url('Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff'),
+        url('Montserrat-Light.ttf') format('truetype'),
+        url('Montserrat-Light.svg#Montserrat-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.eot');
+    src: url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff'),
+        url('Roboto-Black.ttf') format('truetype'),
+        url('Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

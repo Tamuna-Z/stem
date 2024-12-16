@@ -1,3 +1,5 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+
 body {
   height: 1000px;
 }
@@ -114,7 +116,7 @@ section {
   background-color: black;
   opacity: 50%;
 }
-
+/* header hover */
 a{
   position: relative;
 }
@@ -128,11 +130,35 @@ a::after{
   left: 0;
   background-color: red;
   display: block;
+  transition: width 2s linear 1s;
 
 }
 a:hover::after{
   width: 100%;
 
 }
+/* fonts */
+.geo-abs{
+  font-family: "ALK Life", sans-serif;
+}
+.geo-rel{
+  font-family: 'ALK Tommaso';
+}
+
+.lat-abs{
+  font-family: "Roboto", serif;
+}
+.lat-rel{
+  font-family: 'Roboto';
+}
 
 
+.lat-abs{
+  font-family: "Montserrat", sans-serif;
+}
+.lat-rel{
+  font-family: 'Montserrat';
+}
+.lat-rel1{
+  font-family: 'Roboto';
+}
